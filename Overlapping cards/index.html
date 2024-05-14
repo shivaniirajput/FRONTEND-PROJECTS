@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Overlapping cards</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div>
+    <!-- these radio buttons hold state of which card is in front and which toggle button is visible -->
+    <input type="radio" name="Ghar-ka-khana" id="happy-radio">
+    <input type="radio" name="Ghar-ka-khana" id="lovers-radio" checked>
+  
+    <div class="selector">
+      <label for="happy-radio" class="happy-card">
+        <h1>Ghar ka khana</h1>
+        <ul>
+          <li>Daal</li>
+          <li>Rice</li>
+          <li>Bhindi</li>
+          <li>Roti</li>
+        </ul>
+        <p>120 INR</p>
+      </label>
+  
+      <label for="lovers-radio" class="lovers-card">
+        <h1>Ghar ka special khana</h1>
+        <ul>
+          <li>Paneer</li>
+          <li>Jeera rice</li>
+          <li>Kadhai paneer</li>
+          <li>Butter naan</li>
+        </ul>
+        <p>280 INR</p>
+      </label>
+      
+      <label for="happy-radio" class="happy-pick">Switch to Ghar ka khana!</label>
+      <label for="lovers-radio" class="lovers-pick">Switch to Ghar ka special khana!</label>
+    </div>
+  </div>
+</body>
+</html>
